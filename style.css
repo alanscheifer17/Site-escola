@@ -1,5 +1,5 @@
 header{
-    background-color: blue;
+    background-color: #0066FF;
     color: burlywood;
     display: flex;
     justify-content: space-around;
@@ -7,4 +7,11 @@ header{
 
 .cabeçalho-imagem{
     width: 20px;
+}
+.diretor-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#0066FF,);
 }
