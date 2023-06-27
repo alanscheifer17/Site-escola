@@ -1,17 +1,88 @@
-header{
+.menu {
     background-color: #0066FF;
-    color: burlywood;
     display: flex;
-    justify-content: space-around;
-}
+    width: 100%;
+    justify-content: space-between;
+  } 
 
-.cabeçalho-imagem{
-    width: 20px;
-}
-.diretor-imagem{
-    width: 25%;
-}
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1, h3, p {
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    margin-left: 20px;
+  }
+  
+  .espaço {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .espaço img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .espaço a {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background: #0066FF;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
 
-.escola{
-    background-image: linear-gradient(#0066FF,);
-}
+  .body2 {
+    background-image: url(Foto\ de\ trás.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  p {
+    font-size: 20px
+  }
+
+  .parte1 {
+    display: flex;
+    max-width: 100%;
+    margin: 25px;
+  }
+
+  .parte1 img {
+    max-width: 50%;
+    margin-left: 10px;
+  }
+
+  .parte2 {
+    display: flex;
+    max-width: 100%;
+    margin: 25px;
+  }
+
+  .parte2 img {
+    max-width: 30%;
+    margin-left: 10px;
+  }
+
+  .parte2 p {
+    background-color: rgba(10, 10, 10, 0.3);
+    font-size: 25px;
+    
+  }
